@@ -1,0 +1,354 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: lightsalmon;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    background-color: lightgreen;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 1;
+    background-color: lightslategray;
+    transition: 1s;
+}
+
+.Service_button {
+    border: 5px solid lightcyan;
+    background: none;
+    border-radius: 50%;
+    padding-bottom: 50px;
+    margin-top: 5px;
+    width: 220px;
+    height: 250px;
+}
+
+
+/* Add padding and center-align text to the container */
+
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+.row {
+    padding-top: 20px;
+    margin: 0px 50px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-image: url(images/background-blur-bokeh-bright-220067.jpg);
+    padding-top: 50px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-image: url(images/background-blur-bokeh-bright-220067.jpg);
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    width: 100%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* Style the horizontal ruler */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* The Modal Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+/*service div*/
+
+.service-div {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.service-div img {
+    width: 150px;
+    height: 150px;
+    border-image: none;
+    padding: 15px 15px 15px 15px;
+}
+
+.counter_first,
+.counter_secound {
+    text-align: center;
+    height: 120px;
+    padding-top: 10px;
+    font-family: Didot, serif;
+}
+
+.counter_first {
+    background-color: cadetblue;
+    width: 49%;
+    float: left;
+}
+
+.counter_secound {
+    background-color: darkgoldenrod;
+    width: 49.1%;
+    float: right;
+}
+
+.why_choice_us {
+    padding-bottom: 5px;
+    text-align: center;
+    color: lightcoral;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bgimage {
+    background: linear-gradient(rgb(92, 160, 92), rgb(138, 125, 102));
+    overflow: hidden;
+}
+
+.main-div {
+    padding-top: 50px;
+}
+
+.card {
+    border-top: 2px solid rgb(112, 98, 98);
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-phone {
+    background: #125688;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-envelope-o {
+    background: #125688;
+    color: white;
+}
+
+.list-type {
+    width: 410px;
+    margin: 0 auto;
+}
+
+.list-type {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.list-type ol {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+.list-type ol li {
+    margin: 0 0 0 2em;
+}
+
+.list-type a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #FC756F;
+    color: #444;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.list-type a:hover {
+    background: #d6d4d4;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.list-type a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.5em;
+    top: 51%;
+    margin-top: -1.3em;
+    background: #FC756F;
+    height: 2.5em;
+    width: 3em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.feed-heading {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: lightslategray;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: lightyellow;
+    border-bottom: 2px solid black;
+}
+
+.feedback {
+    border: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    background-color: lightyellow;
+}
+
+.feed-text {
+    padding-bottom: 150px;
+    background-color: rgb(238, 238, 212);
+}
+
+.feed-name {
+    border: none;
+    border-bottom: 2px solid black;
+    float: left;
+    text-align: center;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+
+.feed-email {
+    border: none;
+    border-bottom: 2px solid black;
+    float: right;
+    text-align: center;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+
+.feed-name:focus,
+.feed-email:focus {
+    outline: none;
+    border-top: 0px;
+    border-bottom: 2x solid black;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.line {
+    font-family: Apple Chancery, cursive;
+}
+
+h2 {
+    font-family: Luminari, fantasy;
+}
+
+h1 {
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+}
+
+.list-type ol li {
+    font-family: Brush Script MT, Brush Script Std, cursiv;
+}
+
+address {
+    font-family: Luminari;
+}

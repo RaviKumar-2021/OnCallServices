@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>OnCallServices</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        .whatsapp {
+            position: fixed;
+            bottom: 35px;
+            right: 25px;
+            z-index: 2;
+        }
+        
+        .service-div {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        
+        .service-div img {
+            width: 150px;
+            height: 150px;
+            border-image: none;
+            padding: 15px 15px 15px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="whatsapp">
+        <a href="https://wa.me/+919205470176" class="fa fa-whatsapp "></a>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" srcset="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="Services">
+        <div class="container-fluet">
+            <div class="row">
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id01')
+        .style.display='block'">
+                        <img src="images/Electronic.png" alt="" srcset="">
+
+                        <h1 style="margin-top: -30px;">Electronic</h1>
+
+                    </button>
+                    <div id="id01" class="modal">
+                        <span onclick="document.getElementById('id01')
+      .style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Installation</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Cabling</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Repairing</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Cleaning</h6>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id02')
+        .style.display='block'">
+                        <img src="images/house cleaning.png" alt="" srcset="">
+                        <h1 style="margin-top: -30px;">Cleaning</h1>
+                    </button>
+
+                    <div id="id02" class="modal">
+                        <span onclick="document.getElementById('id02')
+      .style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Kitchen cleaning </h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Deep Cleaning</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Living Room Cleaning</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Bed Room Clening</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Other Areas Cleaning</h6>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="Apportments/Book_Apportments.html">
+                                            <h6>Deep Cleaning</h6>
+                                        </a>
+                                    </li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id03')
+        .style.display='block'">
+                        <img src="images/dry cleaning.png" alt="" srcset="">
+                        <h1 style="margin-top: -30px;">
+                            <h1>Dry Cleaning</h1>
+                    </button>
+
+                    <div id="id03" class="modal">
+                        <span onclick="document.getElementById('id03')
+      .style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li><a href="Apportments/Book_Apportments.html"> Ladies</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Man</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Kids</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Home Furnishing</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Accessories</a></li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id04')
+      .style.display='block'">
+                        <img src="images/secourity.png" alt="" srcset="">
+                        <h1 style="margin-top: -30px;">Home Security</h1>
+                    </button>
+
+                    <div id="id04" class="modal">
+                        <span onclick="document.getElementById('id04')
+    .style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li><a href="Apportments/Book_Apportments.html">CCTV Camera Installation</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">CCTV Camera Repair”</a></li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id05')
+    .style.display='block'">
+                        <img src="images/cyber cafe.png" alt="" srcset="">
+                        <h1 style="margin-top: -30px;">Cybercafe</h1>
+                    </button>
+
+                    <div id="id05" class="modal">
+                        <span onclick="document.getElementById('id05')
+  .style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li><a href="Apportments/Book_Apportments.html">Online Application Form</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Photo-Copy & Print-Out</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Ration Cards </a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Pan Cards</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Aadhar Cards</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Resedent Certificates</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Cast Certificates</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Income Certificates</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">Bank Accounts Opening</a></li>
+                                    <li><a href="Apportments/Book_Apportments.html">All CSC Works</a></li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="service-div col-lg-4 col-md-6 col-12">
+                    <button class="Service_button" onclick="document.getElementById('id06')
+  .style.display='block'">
+                        <img src="images/grocery.png" alt="" srcset="">
+                        <h1 style="margin-top: -30px;">Grocery</h1>
+                    </button>
+
+                    <div id="id06" class="modal">
+                        <span onclick="document.getElementById('id06')
+.style.display='none'" class="close" title="Close Modal">×</span>
+                        <div class="container modal-content">
+
+                            <div class="list-type">
+                                <ol type="">
+                                    <li><a href="Apportments/Book_Apportments.html"> All Grocery Items </a></li>
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="container-fluet">
+        <div class="row">
+            <div class="counter_first ">
+                <h1>25+ <br> Services</h1>
+            </div>
+            <div class="counter_secound ">
+                <h1>55+ <br> Staff</h1>
+            </div>
+        </div>
+        <br>
+    </section>
+    <section>
+
+        <!--Why Choice Us-->
+
+        <div class="bgimage container-fluet">
+            <div class="why_choice_us">
+                <h3><i>
+                        Why Choice Us</i></h3>
+            </div>
+            <article class="main-extradiv ">
+                <div class="container main-div">
+                    <div class="row">
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>Truly Cashless</h2>
+                            <P class="line">
+                                “No Payment to be made at the time of repair”
+                            </P>
+                        </div>
+
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>Guranteed Visit within 24 Hourse</h2>
+                            <P class="line">
+                                “Applicable in selcted Area Only”
+                            </P>
+                        </div>
+
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>Solid Teamwork</h2>
+                            <P class="line">
+                                “Critical To The Success Of The Team Work And Project”
+
+                            </P>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="container main-div">
+                    <div class="row">
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>24 HourSopport</h2>
+                            <P class="line">
+                                “Get remote tech support via virtual house calls, phone & chat”
+                            </P>
+                        </div>
+
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>Our experience</h2>
+                            <P class="line">
+                                “10+ Years Experience in these field”
+                            </P>
+                        </div>
+
+                        <div class="bg-div col-lg-4 col-md-4 col-12">
+                            <a href="#"></a>
+                            <h2>Excellence Services</h2>
+                            <P class="line">
+                                “Service Excellence includes providing excellent service”
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="card mb-3 col-12">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/logoo-removebg-preview.png" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title ">QuickSevicesBharat</h5>
+                            <p class="card-text">
+                                QuicksevicesBharat is a new online marketplace for Local Services such as repair and maintenance , Home cleanig, Home Care etc ..
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!--script-->
+
+    <div class="feedback col-12">
+        <div class="feed-heading">
+            Give Feedback
+        </div>
+        <form action="Feedback.php" method="post" name="form">
+            <input type="text" name="name" id="" class="feed-name col-4" placeholder="Enter Name">
+            <input type="email" name="email" id="" class="feed-email col-4 " placeholder="Enter Email"><br><br>
+            <input type="text" name="msg" id="" class="feed-text col-12" placeholder="write here.....">
+            <input type="submit" class="btn btn-success" name="submit">
+        </form>
+
+        <footer>
+            <div class="container footer-contants">
+                <div class="row">
+                    <div class="footerlink col-md-6 col-12">
+                        <H6>ABOUT MORE</H6>
+                        <br>
+                        <p>QuicksevicesBharat is a Indian online marketplace for Local Services such as repair and maintenance , Home cleanig, Home Care etc ...
+                        </p>
+
+                    </div>
+                    <div class="footerlink col-md-3 col-12">
+                        <h6> Office Address</h6>
+                        <address>
+                            Tapaseya Academy Sector-95
+                            Gurugram Haryana
+                        </address> +919953550594
+
+                        <br>
+                        <a href="tel:+918527191225" class="fa fa-phone"></a>
+                        <a href="https://wa.me/+919953550594" class="fa fa-whatsapp"></a>
+                        <a href="mailto:global.ent290@gmail.com" class="fa fa-envelope-o"></a>
+
+                    </div>
+                    <div class="footerlink col-md-3 col-12">
+                        <h6> Head Office Address</h6>
+
+
+                        <address>
+                            SBI Bank Wazirpur
+                            Gurugram Haryana
+                        </address> +919953550594
+
+                        <br>
+                        <a href="tel:+919205470176" class="fa fa-phone"></a>
+                        <a href="https://wa.me/+919205470176" class="fa fa-whatsapp"></a>
+                        <a href="mailto:RaviBCA2019@gmail.com" class="fa fa-envelope-o"></a>
+
+                    </div>
+        </footer>
+</body>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</html>
